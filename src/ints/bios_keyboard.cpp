@@ -275,7 +275,7 @@ static Bitu IRQ1_Handler(void) {
 #endif
 	if (DOS_LayoutKey(scancode,flags1,flags2,flags3)) return CBRET_NONE;
 	//  Printout scancode status for debug
-	  	LOG_MSG("key input %x %x %x %x",scancode,flags1,flags2,flags3);
+	//  LOG_MSG("key input %x %x %x %x",scancode,flags1,flags2,flags3);
 	switch (scancode) {
 		/* First the hard ones  */
 	case 0xfa:	/* ack. Do nothing for now */

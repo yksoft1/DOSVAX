@@ -324,3 +324,4 @@ __pycache__/
 *.deps
 dosboxax
 dosboxax.exe
+dosbox.conf
