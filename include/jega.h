@@ -47,7 +47,7 @@ typedef struct {
 		, ROMSL//df: Unused?
 		, RSTAT//bf: Font register accessible status
 		;
-	Bitu fontIndex = 0;
+	Bitu fontIndex;
 } JEGA_DATA;
 
 extern JEGA_DATA jega;

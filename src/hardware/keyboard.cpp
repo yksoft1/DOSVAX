@@ -52,7 +52,7 @@ static struct {
 	bool active;
 	bool scanning;
 	bool scheduled;
-	bool kanaLocked = false;//for AX
+	bool kanaLocked;//for AX
 } keyb;
 
 static void KEYBOARD_SetPort60(Bit8u val) {

@@ -37,6 +37,7 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+*.exe
 
 # Visual Studio 2015 cache/options directory
 .vs/
@@ -314,67 +315,12 @@ __pycache__/
 *.xsd.cs
 
 ###############################################################################
-# dosbox-x
+# dosboxax
 ###############################################################################
-
-*~
-dosbox.app/
-dosbox.app/*
-dosbox.icns
-dosbox.iconset/
-dosbox.iconset/*
-autom4te.cache/
-autom4te.cache/*
-.DS_Store
-
-windows-installer/DOSBox-X-standalone-*
-windows-installer/DOSBox-X-setup-*.exe
-windows-installer/DOSBox-X-setup-*.zip
 
 *.o
 *.a
 *.la
 *.deps
-dosbox-x
-Makefile
-
-doxygen
-doxygen/*
-
-vs2015/sdl/linux-host
-vs2015/sdl/linux-host/*
-
-vs2015/sdl/linux-build
-vs2015/sdl/linux-build/*
-
-vs2015/sdl/include/SDL_config.h
-
-/vs2015/libpdcurses/wincon/xmas.exe
-/vs2015/libpdcurses/wincon/worm.exe
-/vs2015/libpdcurses/wincon/tuidemo.exe
-/vs2015/libpdcurses/wincon/testcurs.exe
-/vs2015/libpdcurses/wincon/rain.exe
-/vs2015/libpdcurses/wincon/ptest.exe
-/vs2015/libpdcurses/wincon/pdcurses.lib
-/vs2015/libpdcurses/wincon/ozdemo.exe
-/vs2015/libpdcurses/wincon/firework.exe
-/vs2015/libpdcurses/wincon/xmas.exe
-/vs2015/libpdcurses/wincon/worm.exe
-/vs2015/libpdcurses/wincon/tuidemo.exe
-/vs2015/libpdcurses/wincon/testcurs.exe
-/vs2015/libpdcurses/wincon/rain.exe
-/vs2015/libpdcurses/wincon/ptest.exe
-/vs2015/libpdcurses/wincon/pdcurses.lib
-/vs2015/libpdcurses/wincon/ozdemo.exe
-/vs2015/libpdcurses/wincon/firework.exe
-/vs2015/libpdcurses/wincon/xmas.exe
-/vs2015/libpdcurses/wincon/worm.exe
-/vs2015/libpdcurses/wincon/tuidemo.exe
-/vs2015/libpdcurses/wincon/testcurs.exe
-/vs2015/libpdcurses/wincon/rain.exe
-/vs2015/libpdcurses/wincon/ptest.exe
-/vs2015/libpdcurses/wincon/pdcurses.lib
-/vs2015/libpdcurses/wincon/ozdemo.exe
-/vs2015/libpdcurses/wincon/firework.exe
-
-dosbox-x.exe
+dosboxax
+dosboxax.exe
